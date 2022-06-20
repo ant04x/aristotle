@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="aristotle:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>aristotle</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="aristoteles-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="aristotle:war exploded" />
+    </root>
+  </artifact>
+</component>
