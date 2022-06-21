@@ -8,7 +8,7 @@
  
  Run the generated
   ```
-  docker run --env DEV_MODE=true --rm -p 8887:8887 -v $PWD/idea.txt:/tmp/idea.key -it aristotle-idea-u:latest
+  docker run --env DEV_MODE=true --rm -p 8887:8887 -it aristotle-idea-u:latest
   ```
 
  Tag and publish image
