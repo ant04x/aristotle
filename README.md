@@ -16,3 +16,6 @@
   docker tag aristotle:latest ant04x/aristotle-idea-u:latest
   docker push ant04x/aristotle-idea-u:latest
   ```
+ TODO:
+  - Import the IDE settings file to the image. (Store and import manually from settings.zip in git).
+  - Volume that shares the WAS 9 directory to the IDE.
